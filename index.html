@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arges Hub</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <header>ARGES HUB</header>
+    <div class="cards">
+      <div class="card">
+        <a target="_blank" href="https://gsi.sharepoint.com/">
+          <img src="img/nov_coll_hub.jpg" alt="" />
+          <div class="title">Novanta Collaboration Hub</div>
+        </a>
+        <div class="desc">Startseite Novanta Intranet</div>
+      </div>
+
+      <div class="card">
+        <a
+          target="_blank"
+          href="https://gsi.sharepoint.com/teams/corpit/sites/Wackersdorf/Shared%20Documents/Forms/AllItems.aspx"
+        >
+          <img src="img/intranet_wack.jpg" alt="" />
+          <div class="title">Novanta Intranet Wackersdorf</div>
+        </a>
+        <div class="desc">Wackersdorf Teamsite in Novanta Sharepoint</div>
+      </div>
+
+      <div class="card">
+        <a
+          target="_blank"
+          href="https://admin.microsoft.com/AdminPortal/Home#/homepage"
+        >
+          <img src="img/m365_admin.jpg" alt="" />
+          <div class="title">Microsoft 365 Admin Center</div>
+        </a>
+        <div class="desc">
+          Admin Center to manage Exchange, SharePoint, Teams, AD...
+        </div>
+      </div>
+
+      <div class="card">
+        <a target="_blank" href="https://mail.gsig.com/ecp/">
+          <img src="img/onprem_ex.jpg" alt="" />
+          <div class="title">OnPremise Exchange</div>
+        </a>
+        <div class="desc">
+          Für manche Einstellungen wird der OnPremise Exchange benötigt
+        </div>
+      </div>
+
+      <div class="card">
+        <a target="_blank" href="https://002cc802.pphosted.com:10001/admin">
+          <img src="img/proofpoint.jpg" alt="" />
+          <div class="title">ProofPoint</div>
+        </a>
+        <div class="desc">Email Quarantine</div>
+        <div class="ppdecoder">
+          <div class="input">
+            <input type="text" name="ppdecode_input" id="ppdecode_input" />
+            <button onclick="decode_url()">Decode</button>
+          </div>
+
+          <a id="ppdecode_output" href="#"></a>
+        </div>
+      </div>
+
+      <div class="card">
+        <a
+          target="_blank"
+          href="https://nov-srv-vcsa1.gsig.com/ui/#?extensionId=vsphere.core.inventory.serverObjectViewsExtension&objectId=urn:vmomi:Folder:group-d1:7a519fca-4eb3-47b7-9b2e-6b571dda8cc6&navigator=vsphere.core.viTree.hostsAndClustersView"
+        >
+          <img src="img/vsphere.jpg" alt="" />
+          <div class="title">vSphere</div>
+        </a>
+        <div class="desc">VMs Management</div>
+      </div>
+
+      <div class="card">
+        <a
+          target="_blank"
+          href="https://n86.meraki.com/Novanta-Wackersd/n/x86b_cwb/manage/nodes/new_list?timespan=86400"
+        >
+          <img src="img/meraki.jpg" alt="" />
+          <div class="title">Cisco Meraki</div>
+        </a>
+        <div class="desc">Switche Management</div>
+      </div>
+
+      <div class="card">
+        <a target="_blank" href="https://wac-srv-cohesity1.gsig.com/login">
+          <img src="img/cohesity.jpg" alt="" />
+          <div class="title">Cohesity</div>
+        </a>
+        <div class="desc">Backup Jobs Management</div>
+      </div>
+
+      <div class="card">
+        <a
+          target="_blank"
+          href="https://cn1380.awmdm.com/AirWatch/#/Device/Dashboard"
+        >
+          <img src="img/workspaceone.jpg" alt="" />
+          <div class="title">WorkspaceOne</div>
+        </a>
+        <div class="desc">Device Management</div>
+      </div>
+
+      <div class="card">
+        <a
+          target="_blank"
+          href="https://secure.logmein.com/central/Central.aspx"
+        >
+          <img src="img/logmein.jpg" alt="" />
+          <div class="title">LogMeIn</div>
+        </a>
+        <div class="desc">Informationen and Remote Access on Devices</div>
+      </div>
+    </div>
+  </body>
+
+  <script src="main.js"></script>
+</html>

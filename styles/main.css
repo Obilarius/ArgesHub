@@ -1,0 +1,134 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  overflow-x: hidden;
+  background: #333;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url("../img/bg2.jpg");
+  background-size: cover;
+  -webkit-filter: grayscale(0.2);
+          filter: grayscale(0.2);
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #979797;
+}
+
+header {
+  font-size: 3rem;
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.cards {
+  font-weight: 300;
+  margin: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cards .card {
+  max-width: 18%;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.cards .card img {
+  width: 100%;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  -webkit-filter: sepia(0);
+          filter: sepia(0);
+}
+
+.cards .card img:hover {
+  -webkit-filter: sepia(1);
+          filter: sepia(1);
+}
+
+.cards .card .title {
+  font-weight: normal;
+  font-size: 1.1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.cards .card .desc {
+  font-size: 0.8rem;
+  padding: 10px 20px 20px 20px;
+  text-align: center;
+}
+
+.cards .card .ppdecoder {
+  padding: 0px 20px 20px 20px;
+}
+
+.cards .card .ppdecoder .input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cards .card .ppdecoder .input input {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  width: 100%;
+  color: white;
+  padding: 5px;
+}
+
+.cards .card .ppdecoder .input input:focus {
+  outline: none;
+}
+
+.cards .card .ppdecoder .input button {
+  background: rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  color: white;
+}
+
+.cards .card .ppdecoder .input button:focus {
+  outline: none;
+}
+
+.cards .card .ppdecoder .input button:hover {
+  color: #cacaca;
+}
+
+.cards .card .ppdecoder #ppdecode_output {
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-top: 0;
+  width: 100%;
+  display: block;
+  height: 26px;
+  font-size: 14px;
+  padding: 5px;
+}
+
+.cards .card .ppdecoder #ppdecode_output.success {
+  border-bottom: 1px solid lime;
+}
+/*# sourceMappingURL=main.css.map */
